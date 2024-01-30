@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Accordian.css'
 
-function List(){
+function Accordian(){
     const data=[{id:'1',question:'First Question',answer:'First Answer'},
     {id:'2',question:'Second Question',answer:'Second Answer'},{id:'3',question:'Third Question',answer:'Third Answer'},
     {id:'4',question:'Fourth Question',answer:'Fourth Answer'}];
@@ -69,4 +69,4 @@ function List(){
         </div>
     )
 }
-export default List
+export default Accordian

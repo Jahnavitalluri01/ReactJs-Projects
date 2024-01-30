@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Accordian from './Components/Accordian/Accordian';
-import Maps from './Components/Maps/Maps';
+import Changecolor from './Components/ChangeColor/Changecolor';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Form from 'react-bootstrap/Form';
@@ -18,6 +18,7 @@ function App() {
       </div>
       <div className='container'>
           <Accordian />
+          <Changecolor />
       </div>
     
 
