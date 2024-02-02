@@ -22,6 +22,7 @@ function App() {
           <Accordian />
           <Changecolor />
           <Starrating />
+          <h1>Image Slider</h1>
           <Imageslider url="https://picsum.photos/v2/list?page=1&limit=" limit={10}/>
       </div>
     

@@ -1,0 +1,49 @@
+.slider{
+    position: relative;
+    
+   
+}
+.arrow{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    /* color: white; */
+    cursor: pointer;
+}
+.arrow-left{
+    left:4rem;
+}
+.arrow-right{
+    right:4rem;
+}
+.circles{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 1rem;
+    gap:5px
+}
+.buttonn{
+    background-color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: none;
+}
+.current_img{
+    width: 500px;
+    height: 500px;
+
+}
+.inactive_img{
+    display: none;
+
+}
+.active_button{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: none;
+    background-color: rgb(47, 43, 43);
+}
