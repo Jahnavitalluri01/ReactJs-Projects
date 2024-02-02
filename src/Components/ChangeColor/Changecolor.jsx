@@ -38,7 +38,7 @@ function randomcolor(typee){
  
 }
     return(
-        <div className="container">
+        <div className="container my-5">
             <h1>Changing Random Colors</h1>
             <div className="d-flex justify-content-center gap-5 my-5">
             <button className="btn btn-outline-danger" onClick={hexcolor}>Generate Hex Color</button>
@@ -46,8 +46,8 @@ function randomcolor(typee){
             <button className="btn btn-outline-danger" onClick={()=>randomcolor(type)}>Generate Random Color</button>
             </div>
         <div className="d-flex flex-column align-items-center justify-content-center change" style={{backgroundColor:`${colorr}`}}>
-           <h2 className="text-white">{type}</h2>
-           <h4 className="text-white">{colorr}</h4>
+           <h2 className="text-white">{type.toUpperCase()}</h2>
+           <h4 className="text-white">{colorr.toUpperCase()}</h4>
             </div>
             </div>
     )
