@@ -5,10 +5,9 @@ import Changecolor from './Components/ChangeColor/Changecolor';
 import Starrating from './Components/StarRating/Starrating';
 import Imageslider from './Components/Imageslider/Imageslider';
 import Loadmore from './Components/LoadMore/Loadmore';
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import Form from 'react-bootstrap/Form';
-import { Accordion, Container } from 'react-bootstrap';
+import Nested from './Components/Nestednavbar/Nested'
+import { sidemenu } from './Components/Nestednavbar/data';
+
 
 
 function App() {
@@ -25,9 +24,10 @@ function App() {
           <Starrating />
           <h1>Image Slider</h1>
           <Imageslider url="https://picsum.photos/v2/list?page=1&limit=" limit={10}/>
-          
+          <Nested menus={sidemenu} />
       </div>
       <Loadmore url={'https://dummyjson.com/products'} />
+
     
 
     </div>

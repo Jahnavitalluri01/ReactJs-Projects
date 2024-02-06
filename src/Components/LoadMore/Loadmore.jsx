@@ -14,7 +14,7 @@ function Loadmore({url}){
         const response=await fetch(`${url}?limit=20&skip=${skip}`);
         const data=await response.json();
         setproducts((productss)=>[...productss,...data.products])
-        console.log(data.products)
+        // console.log(data.products)
         setloading(false)
         }
         catch(e){
@@ -28,7 +28,7 @@ function Loadmore({url}){
           if(url!==''){
                fetchproducts(url);
           }
-          console.log("In use effect")        
+        //   console.log("In use effect")        
         //   removed strict mode in index.js as useEffect is being called twice and products are being called twice initially    
         //                React.Strict mode is on
         //   StrictMode renders components twice (on dev but not production) in order to detect any problems with your code and warn you about them (which can be quite useful).
@@ -39,7 +39,7 @@ function Loadmore({url}){
         
         if(skip+20>80){
             setnomore('No More Products Available')
-            console.log(nomore)
+            // console.log(nomore)
         }
        setskip(skip+20)
        
