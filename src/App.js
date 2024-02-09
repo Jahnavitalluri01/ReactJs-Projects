@@ -9,6 +9,7 @@ import Nested from './Components/Nestednavbar/Nested'
 import { sidemenu } from './Components/Nestednavbar/data';
 import Qrcode from './Components/QrCode/Qrcode';
 import Themechange from './Components/ThemeChange/Themechange';
+import Loginpage from './Components/Login/Loginpage';
 
 
 
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div className="App">     
-      {/* <div className='fluid-container'>
+      <div className='fluid-container'>
         <Header />
       </div>
       <div className='container'>
@@ -28,9 +29,10 @@ function App() {
           <Imageslider url="https://picsum.photos/v2/list?page=1&limit=" limit={10}/>
       </div>
       <Loadmore url={'https://dummyjson.com/products'} />
-      <Nested menus={sidemenu} /> */}
+      <Nested menus={sidemenu} /> 
       {/* <Qrcode /> */}
-      <Themechange />
+     <Themechange />
+      <Loginpage />
 
     
 
