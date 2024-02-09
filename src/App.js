@@ -7,6 +7,8 @@ import Imageslider from './Components/Imageslider/Imageslider';
 import Loadmore from './Components/LoadMore/Loadmore';
 import Nested from './Components/Nestednavbar/Nested'
 import { sidemenu } from './Components/Nestednavbar/data';
+import Qrcode from './Components/QrCode/Qrcode';
+import Themechange from './Components/ThemeChange/Themechange';
 
 
 
@@ -15,7 +17,7 @@ function App() {
 
   return (
     <div className="App">     
-      <div className='fluid-container'>
+      {/* <div className='fluid-container'>
         <Header />
       </div>
       <div className='container'>
@@ -24,9 +26,11 @@ function App() {
           <Starrating />
           <h1>Image Slider</h1>
           <Imageslider url="https://picsum.photos/v2/list?page=1&limit=" limit={10}/>
-          <Nested menus={sidemenu} />
       </div>
       <Loadmore url={'https://dummyjson.com/products'} />
+      <Nested menus={sidemenu} /> */}
+      {/* <Qrcode /> */}
+      <Themechange />
 
     
 
