@@ -12,7 +12,7 @@ function Loginpage(){
     let logindet=[]
     let [issignup,setsignup]=useState(false)
     function login(){
-      logindet=JSON.parse(localStorage.getItem('credentials'))
+      logindet=JSON.parse(localStorage.getItem('credentials') || [])
           const isfound=logindet.some((ele)=>{
             if(ele.Username===username && ele.Password===password){
                 return true

@@ -1,0 +1,16 @@
+.scrollbarfull{
+    position: sticky;
+    top:100px;
+    left:0;
+    background-color: #a3d5ff;
+    width: 100%;
+    height: 20px;
+    border: #a3d5ff;
+    border-radius: 20px;
+    z-index: -1;
+}
+.progress{
+   
+    border-radius: 20px;
+
+}

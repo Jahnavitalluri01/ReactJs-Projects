@@ -10,6 +10,7 @@ import { sidemenu } from './Components/Nestednavbar/data';
 import Qrcode from './Components/QrCode/Qrcode';
 import Themechange from './Components/ThemeChange/Themechange';
 import Loginpage from './Components/Login/Loginpage';
+import Scroll from './Components/ScrollIndicator/Scroll';
 
 
 
@@ -20,7 +21,7 @@ function App() {
     <div className="App">     
       <div className='fluid-container'>
         <Header />
-      </div>
+      </div> 
       <div className='container'>
           <Accordian />
           <Changecolor />
@@ -32,7 +33,8 @@ function App() {
       <Nested menus={sidemenu} /> 
       {/* <Qrcode /> */}
      <Themechange />
-      <Loginpage />
+      <Loginpage /> 
+      <Scroll url="https://dummyjson.com/products" />
 
     
 
