@@ -11,6 +11,7 @@ import Qrcode from './Components/QrCode/Qrcode';
 import Themechange from './Components/ThemeChange/Themechange';
 import Loginpage from './Components/Login/Loginpage';
 import Scroll from './Components/ScrollIndicator/Scroll';
+import Search from './Components/SearchAutocomplete/Search';
 
 
 
@@ -35,7 +36,7 @@ function App() {
      <Themechange />
       <Loginpage /> 
       <Scroll url="https://dummyjson.com/products" />
-
+      <Search />
     
 
     </div>
