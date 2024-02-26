@@ -12,6 +12,8 @@ import Themechange from './Components/ThemeChange/Themechange';
 import Loginpage from './Components/Login/Loginpage';
 import Scroll from './Components/ScrollIndicator/Scroll';
 import Search from './Components/SearchAutocomplete/Search';
+import Tictactoe from './Components/TicTacToe/Tictactoe';
+import Test from './Components/UseFetchcustomhook/Test';
 
 
 
@@ -37,7 +39,8 @@ function App() {
       <Loginpage /> 
       <Scroll url="https://dummyjson.com/products" />
       <Search />
-    
+      <Tictactoe />
+      <Test />
 
     </div>
   );
