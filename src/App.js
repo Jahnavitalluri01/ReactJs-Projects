@@ -14,6 +14,7 @@ import Scroll from './Components/ScrollIndicator/Scroll';
 import Search from './Components/SearchAutocomplete/Search';
 import Tictactoe from './Components/TicTacToe/Tictactoe';
 import Test from './Components/UseFetchcustomhook/Test';
+import Weather from './Components/WeatherApp/Weather';
 
 
 
@@ -41,6 +42,7 @@ function App() {
       <Search />
       <Tictactoe />
       <Test />
+      <Weather />
 
     </div>
   );

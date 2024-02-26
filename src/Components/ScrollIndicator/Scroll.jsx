@@ -50,7 +50,7 @@ function Scroll({url}){
             </div>
             {
             loading===true?
-            <Loading />: 
+            <Loading color="#0072A0"/>: 
             // data && data.length>0 &&
             <div>
             {
